@@ -7,7 +7,7 @@
     "esModuleInterop": true, // Enables interoperability between CommonJS and ES Modules, allowing us to use CommonJS modules in ES Modules syntax.
     "moduleResolution": "node16", // Uses Node.js's module resolution algorithm, considering the Node.js version 16 specifics.
     "rootDir": ".", // Specifies the root directory of input files. Here, the current directory is set as the root.
-    "outDir": "dist", // Redirects output structure to the directory. Here, compiled files will be placed in the "dist" directory.
+    "outDir": "../dist", // Redirects output structure to the directory. Here, compiled files will be placed in the "dist" directory.
     "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export. This does not affect code emit, just type checking.
     "importHelpers": true, // Imports helper functions from the 'tslib' package instead of including them in every file, reducing redundancy.
     "alwaysStrict": true, // Parses in strict mode and emits "use strict" for each source file, enforcing stricter semantics and producing more secure JavaScript.
